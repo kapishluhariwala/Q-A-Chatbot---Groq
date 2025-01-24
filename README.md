@@ -1,4 +1,4 @@
-# Chatbot with Groq and Streamlit
+# Q&A Chatbot using Groq
 
 Welcome to the **AI Chatbot** repository! This project demonstrates a chatbot application powered by **Groq** for efficient AI processing and **Streamlit** for a seamless user interface.
 
@@ -6,10 +6,8 @@ Welcome to the **AI Chatbot** repository! This project demonstrates a chatbot ap
 
 ## Features
 
-- **Conversational AI:** Powered by Groq, the chatbot provides fast and accurate responses.
+- **Basic Conversational AI:** Powered by Groq.
 - **Streamlit-based UI:** A clean, intuitive interface for interacting with the chatbot.
-- **Customizable Backend:** Easily adapt the Groq model for different use cases.
-- **Scalable Deployment:** Host locally or on the cloud.
 
 ---
 
@@ -19,7 +17,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Groq SDK installed ([Groq Documentation](https://www.groq.com/documentation))
 - Streamlit installed
 
@@ -28,7 +26,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/chatbot-with-groq.git
+   git clone https://github.com/kapishluhariwala/chatbot-with-groq.git
    cd chatbot-with-groq
    ```
 
@@ -56,7 +54,22 @@ Follow these steps to set up and run the chatbot on your local machine.
    http://localhost:8501
    ```
 
-3. Interact with the chatbot through the user-friendly interface.
+3. Obtain a Groq API Key:
+
+   Follow the steps below to get your Groq API key for integrating with the chatbot:
+
+   Sign in to your Groq account on the Groq Developer Portal.
+
+   Navigate to the API Keys section in your dashboard.
+
+   Click on Generate New Key and provide a name for your key (e.g., ChatbotApp).
+
+   Copy the API key and keep it secure. You will use this key to authenticate requests.
+
+   Paste the API key in the UI.
+
+
+4. Interact with the chatbot through the user-friendly interface.
 
 ---
 
@@ -65,10 +78,9 @@ Follow these steps to set up and run the chatbot on your local machine.
 ```plaintext
 .
 ├── app.py                # Main Streamlit app
-├── groq_model.py         # Groq model integration and processing logic
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
-└── assets/               # Static assets (images, icons, etc.)
+
 ```
 
 ---
@@ -86,68 +98,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 - The interface includes:
   - Input box for user queries
   - Display area for chatbot responses
-  - Customizable theme options
-
----
-
-## Customization
-
-### Modifying the Model
-
-- Update the `groq_model.py` file to integrate a different model or adjust preprocessing/postprocessing logic.
-
-### UI Customization
-
-- Modify `app.py` to add new features or adjust the Streamlit layout.
-
----
-
-## Deployment
-
-### Local Deployment
-
-Run the chatbot locally with Streamlit using the steps above.
-
-### Cloud Deployment
-
-- Use platforms like **Streamlit Community Cloud**, **AWS**, or **Google Cloud** to host your chatbot online.
-- Example Streamlit Cloud deployment:
-  1. Push your code to GitHub.
-  2. Connect your repository to Streamlit Community Cloud.
-  3. Deploy and share your app!
-
----
-
-## Future Enhancements
-
-- Add support for multiple languages.
-- Integrate additional Groq-optimized models.
-- Enhance UI with more user customization options.
-- Implement session history for better context retention.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve this project, please:
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- [Groq](https://www.groq.com/) for their AI hardware and software.
-- [Streamlit](https://streamlit.io/) for their incredible visualization framework.
-- All contributors and supporters of this project.
+  - Customizable LLM options
 
 ---
 
@@ -155,6 +106,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions, feel free to reach out:
 
-- **Your Name:** [your.email@example.com](mailto\:your.email@example.com)
-- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **Kapish Luhariwala:** [kapishluhariwala@hotmail.com](mailto\:kapishluhariwala@hotmail.com)
+- **GitHub:** [@kapishluhariwala](https://github.com/kapishluhariwala)
 
