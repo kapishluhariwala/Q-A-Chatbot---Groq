@@ -4,6 +4,16 @@ Welcome to the **AI Chatbot** repository! This project demonstrates a chatbot ap
 
 ---
 
+## Live Demo
+
+You can try out the chatbot directly using the live demo hosted on Streamlit:
+
+[Access the Chatbot](https://q-a-chatbot---groq.streamlit.app/)
+
+Paste the GROQ API key to interact with the chatbot, ask questions, and see its responses in real-time.
+
+---
+
 ## Features
 
 - **Basic Conversational AI:** Powered by Groq.
