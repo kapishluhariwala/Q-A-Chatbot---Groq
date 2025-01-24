@@ -24,7 +24,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kapishluhariwala/chatbot-with-groq.git
+   git clone [https://github.com/kapishluhariwala/chatbot-with-groq.git](https://github.com/kapishluhariwala/Q-A-Chatbot---Groq.git)
    cd chatbot-with-groq
    ```
 
