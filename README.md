@@ -18,8 +18,6 @@ Follow these steps to set up and run the chatbot on your local machine.
 ### Prerequisites
 
 - Python 3.10+
-- Groq SDK installed ([Groq Documentation](https://www.groq.com/documentation))
-- Streamlit installed
 
 ### Installation
 
@@ -35,9 +33,6 @@ Follow these steps to set up and run the chatbot on your local machine.
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Verify Groq setup: Ensure that your Groq system is properly configured. Refer to [Groq's setup guide](https://www.groq.com/documentation) for more details.
-
 ---
 
 ## Running the Chatbot
