@@ -57,7 +57,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 3. Obtain a Groq API Key:
 4. 
    Follow the steps below to get your Groq API key for integrating with the chatbot:
-   - Sign in to your Groq account on the [Groq Developer Portal](https://developer.groq.com).
+   - Sign in to your Groq account on the [Groq](https://console.groq.com/keys).
    - Navigate to the **API Keys** section in your dashboard.
    - Click on **Generate New Key** and provide a name for your key (e.g., `ChatbotApp`).
    - Copy the API key and keep it secure. You will use this key to authenticate requests.
